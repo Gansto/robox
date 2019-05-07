@@ -1,0 +1,22 @@
+@charset "utf-8";
+/*2016-06-07*/
+/*Clearfix ibw*/
+
+.ad_closed{width:16px;height:16px;line-height:16px;text-align:center;background:#f00;color:#fff;position:absolute;top:0;right:0;cursor:pointer;}
+
+/*弹出广告*/
+#popup{position:fixed;top:50%;left:50%;z-index:9999;}
+#ad_shadow{width:100%;background:#000;position:fixed;top:0;left:0;z-index:9000;opacity:0.4;filter:alpha(opacity=40);}
+
+/*漂浮广告*/
+#ad1{position:absolute;z-index:9999;}
+
+/*左侧门帘*/
+#hangL{position:absolute;left:0;z-index:9999;}
+
+/*右侧门帘*/
+#hangR{position:absolute;right:0;z-index:9999;}
+
+/*拉屏广告*/
+#bigScreen{position:relative;left:50%;top:0;height:0;overflow:hidden;}
+#bigScreen .ad_closed{top:10px;}
